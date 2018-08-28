@@ -5,7 +5,7 @@ let
     id = basetest
     host = eu.thethings.network
     port = 1883
-    key = ${ lib.fileContents ../static/ttn-api-key.secret; }
+    key = ${ lib.fileContents ../static/ttn-api-key.secret }
   '';
 
   app = import /home/rmarko/git/ttn-om/app.nix {
