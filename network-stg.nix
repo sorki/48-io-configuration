@@ -9,10 +9,6 @@ in
     { config, lib, pkgs, ... }:
     {
       imports = [
-        <nixpkgs/nixos/modules/virtualisation/container-config.nix>
-        "${vpsadminos}/os/lib/nixos-container/build.nix"
-        "${vpsadminos}/os/lib/nixos-container/networking.nix"
-
         ./ct.nix
       ];
 
@@ -26,10 +22,6 @@ in
     { config, lib, pkgs, ... }:
     {
       imports = [
-        <nixpkgs/nixos/modules/virtualisation/container-config.nix>
-        "${vpsadminos}/os/lib/nixos-container/build.nix"
-        "${vpsadminos}/os/lib/nixos-container/networking.nix"
-
         ./ct.nix
       ];
 
@@ -44,10 +36,6 @@ in
     { config, lib, pkgs, ... }:
     {
       imports = [
-        <nixpkgs/nixos/modules/virtualisation/container-config.nix>
-        "${vpsadminos}/os/lib/nixos-container/build.nix"
-        "${vpsadminos}/os/lib/nixos-container/networking.nix"
-
         ./ct.nix
       ];
 
