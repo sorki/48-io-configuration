@@ -14,11 +14,6 @@ in
         default = "br0";
       };
 
-      externalIP = mkOption {
-        type = types.str;
-        description = "External IP for SNAT";
-      };
-
     };
   };
 

@@ -12,7 +12,6 @@ in
     enable = true;
     networking = {
       enable = true;
-      externalIP = "37.205.14.52";
     };
   };
 
